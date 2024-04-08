@@ -8,7 +8,7 @@
         </div>
     </div>
     <nav class="container-xl my_nav">
-        <div class="my_width my_width2 d-flex">
+        <div class="my_width2 d-flex">
             <div>
                 <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="dc logo">
             </div>

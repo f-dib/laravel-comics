@@ -15,8 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $links = ['Characters','Comics','Movies','Tv','Games','Collectibles','Videos','Fans','News','Shop'];
-    $comics = config("dbcomics.comic");
+    $links = config("dbcomics.site.links");
+    $comics = config("dbcomics.site.comic");
+    $buy = config("dbcomics.site.buy");
+    $footerlink1 = config("dbcomics.site.footerlink1");
+    $footerlink2 = config("dbcomics.site.footerlink2");
+    $social = config("dbcomics.site.social");
 
-    return view('home', compact('links','comics'));
+    return view('home', compact('links','comics', 'buy', 'footerlink1', 'footerlink2', 'social'));
 })->name('home');
