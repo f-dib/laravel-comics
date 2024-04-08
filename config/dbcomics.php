@@ -162,7 +162,7 @@ return [
 
         "footerlink2" => [
             [
-                "title" => "Dc Comics",
+                "title2" => "Dc Comics",
                 "list" => [
                     'Terms Of Use',
                     'Privacy Policy (New)',
@@ -178,7 +178,7 @@ return [
                 ]
             ],
             [
-                "title" => "Sites",
+                "title2" => "Sites",
                 "list" => [
                     'DC',
                     'MAD Magazine',
@@ -186,15 +186,15 @@ return [
                     'DC Universe',
                     'DC Power Visa',
                 ]
-            ],
-
-            "social" => [
-                'resources/img/footer-facebook.png',
-                'resources/img/footer-twitter.png',
-                'resources/img/footer-youtube.png',
-                'resources/img/footer-pinterest.png',
-                'resources/img/footer-periscope.png'
             ]
+        ],
+
+        "social" => [
+            'resources/img/footer-facebook.png',
+            'resources/img/footer-twitter.png',
+            'resources/img/footer-youtube.png',
+            'resources/img/footer-pinterest.png',
+            'resources/img/footer-periscope.png'
         ]
     ]
 

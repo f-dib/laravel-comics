@@ -13,7 +13,7 @@
                 <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="dc logo">
             </div>
 
-            <div class="d-flex">
+            <div class="d-flex text-center">
                 @foreach($links as $linkItem)
                     <ul class="my_list2">
                         <li>{{ $linkItem }}</li>
