@@ -6,6 +6,13 @@
 
 @import './partials/footer';
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
 .my_bg_color{
     background-color: #1c1c1c;
 }

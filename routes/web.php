@@ -24,3 +24,13 @@ Route::get('/', function () {
 
     return view('home', compact('links','comics', 'buy', 'footerlink1', 'footerlink2', 'social'));
 })->name('home');
+
+Route::get('/comic', function () {
+
+    $links = config("dbcomics.site.links");
+    $footerlink1 = config("dbcomics.site.footerlink1");
+    $footerlink2 = config("dbcomics.site.footerlink2");
+    $social = config("dbcomics.site.social");
+
+    return view('comic', compact('links', 'footerlink1', 'footerlink2', 'social'));
+})->name('comic');

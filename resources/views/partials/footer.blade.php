@@ -14,7 +14,7 @@
                     </div>
                     @endforeach
                 </div>
-                <div class="d-flex">
+                <div class="d-flex gap-3">
                     @foreach($footerlink2 as $linkItems2)
                     <div class="my_space3">
                         <div class="my_style2">{{ $linkItems2['title2'] }}</div>

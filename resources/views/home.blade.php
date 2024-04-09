@@ -3,18 +3,19 @@
 
 @section('content')
     <main class="my_bg_color">
-        <div class="my_content_bg"></div>
         <div class="container-xl d-flex flex-column justify-content-center align-items-center">
             <div class="buy_area">
                 <div class="mini_alert text-white">current series</div>
                 <div class="d-flex flex-wrap">
                     @foreach($comics as $comicItem)
+                    <a href="{{route('comic')}}">
                         <div class="comic">
                             <div class="comics_size">
                                 <img class="my_poster" src="{{ $comicItem['thumb'] }}" alt="{{ $comicItem['title'] }}">
                             </div>
                             <h4 class="text-white">{{ $comicItem['series'] }}</h4>
                         </div>
+                    </a>
                     @endforeach
                 </div>
             </div>

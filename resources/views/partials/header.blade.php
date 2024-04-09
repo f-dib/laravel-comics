@@ -22,4 +22,5 @@
             </div>
         </div>      
     </nav>
+    <div class="my_content_bg"></div>
 </header>
